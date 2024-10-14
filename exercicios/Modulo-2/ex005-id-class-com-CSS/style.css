@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id    = Em CSS é #
+    Em HTML é class = Em CSS é .
+*/
+
+/*
+    Uma classe pode ser usada várias vezes
+    Um Id não pode ser usado mais de uma vez
+*/
+
+/*
+    Pode ser usado mais de um class em um parâmerto (apenas separar por espaço)
+    Exemplo:
+    <h1 class="basico destaque"></h1>
+*/
+/*
+    Pode ser usado class e Id em um mesmo parâmerto (Id sobrepõe class)    
+    Exemplo:
+    <h1 id="principal" class="destaque"></h1>
+*/
+
+body{
+    background-color: rgb(169, 236, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkgreen;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+h2{
+    color: darkolivegreen;
+}
+
+.basico{
+    color: darkolivegreen;
+}
+
+.intermediario{
+    color: darkorange;
+}
+
+.avancado{
+    color: darkred;
+}
+
+.destaque{
+    background-color: rgba(153, 205, 50, 0.781);
+}
