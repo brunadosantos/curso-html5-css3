@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(../fontes/Sriracha-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'PassionOne';
+    src: url(../fontes/PassionOne-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root{
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-titulo: 'PassionOne', Arial;
+    --fonte-texto: 'Sriracha', Arial;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 97vh;
+    background-color: lightgray;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 8em;
+    padding-top: 50px;
+}
+
+header p, a {
+    color: white;
+    padding-bottom: 50px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0%;
+}
+
+article {
+    font-family: var(--fonte-texto);
+    font-size: 2.8em;
+    line-height: 2em;
+}
+
+section{
+    background-color: white;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.151);
+    padding-left: 30px;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.Texto{
+    padding-bottom: 90px;
+}
+
+.destaque{
+    background-color: rgb(0 0 0 / 50%);
+    color: white;
+    text-shadow: 1px 1px black;
+    width: 535px;
+    padding: 5px;
+}
+
+.joaninha{
+    color: white;
+    text-shadow: 1px 1px black;
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.carta{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
