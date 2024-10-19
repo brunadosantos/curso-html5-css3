@@ -23,7 +23,6 @@
 }
 
 body {
-    height: 97vh;
     background-color: lightgray;
 }
 
@@ -93,7 +92,7 @@ section.fundo2{
     font-size: 2.8em;
     line-height: 2em;
     text-shadow: 1px 1px 0px black;
-    width: 530px;
+    max-width: 530px;
     padding: 5px;
     padding-bottom: 90px;
 }
